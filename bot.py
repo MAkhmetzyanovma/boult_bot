@@ -1,3 +1,7 @@
+import telebot
+import os
+from dotenv import load_dotenv
+
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
