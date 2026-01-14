@@ -1,7 +1,9 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = API_TOKEN
+from dotenv import load_dotenv
+load_dotenv()  # Загружает .env файл
+TOKEN = os.getenv('BOT_TOKEN')
 USERNAME_SPECIALIST = "BoultAuto"
 
 # /start
