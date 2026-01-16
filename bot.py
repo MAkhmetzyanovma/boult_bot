@@ -1,5 +1,13 @@
+import telebot
+import os
+
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
+
+from dotenv import load_dotenv
+load_dotenv()  # Загружает .env файл
+TOKEN = os.getenv('BOT_TOKEN')
+USERNAME_SPECIALIST = "BoultAuto"
 
 
 # /start
