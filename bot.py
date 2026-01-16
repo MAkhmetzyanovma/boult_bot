@@ -1,9 +1,6 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8275356098:AAFTXSgEP7TUEt7ynKSrgYzwTPaRmKhh2Po"
-
-USERNAME_SPECIALIST = "katevleyd"
 
 # /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
