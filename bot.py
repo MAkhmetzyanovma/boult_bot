@@ -17,7 +17,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("👨‍🔧 Написать специалисту", url=f"https://t.me/{USERNAME_SPECIALIST}")],
         [InlineKeyboardButton("🛒 Заказ запчастей", url=f"https://t.me/{USERNAME_SPECIALIST}")],
         [InlineKeyboardButton("🚗 Заказ ноускатов", url=f"https://t.me/{USERNAME_SPECIALIST}")],
-        [InlineKeyboardButton("🚚 Заказ машинокомплектов", url=f"https://t.me/{USERNAME_SPECIALIST}")],
         [InlineKeyboardButton("📘 Получить подробную информацию по ноускатам", callback_data="nous_info")],
         [InlineKeyboardButton("📝 Как производится заказ?", callback_data="how_order")],
         [InlineKeyboardButton("📍 Как нас найти?", callback_data="contacts")]
